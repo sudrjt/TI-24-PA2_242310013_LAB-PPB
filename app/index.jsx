@@ -1,5 +1,9 @@
-import{Redirect, redirect} from "expo-router";
+import { Redirect } from "expo-router";
+
+// export default function Index() {
+//     return <Redirect href="/module-latihan/latihan1"/>;
+// }
 
 export default function Index() {
-    return <Redirect href="/module-latihan/latihan1"/>;
+  return <Redirect href="/module-latihan/latihan2" />;
 }
